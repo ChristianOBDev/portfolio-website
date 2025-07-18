@@ -10,12 +10,12 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 const pics = [
-  "/assets/WIK/WIK_1.webp",
-  "/assets/WIK/WIK_2.webp",
-  "/assets/WIK/WIK_3.webp",
-  "/assets/WIK/WIK_4.webp",
-  "/assets/WIK/WIK_5.webp",
-  "/assets/WIK/WIK_6.webp",
+  "/assets/projects/WIK/WIK_1.webp",
+  "/assets/projects/WIK/WIK_2.webp",
+  "/assets/projects/WIK/WIK_3.webp",
+  "/assets/projects/WIK/WIK_4.webp",
+  "/assets/projects/WIK/WIK_5.webp",
+  "/assets/projects/WIK/WIK_6.webp",
   "/assets/WIK/WIK_7.webp",
 ];
 

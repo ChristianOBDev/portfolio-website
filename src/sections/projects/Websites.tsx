@@ -15,7 +15,7 @@ const Websites: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full items-stretch">
           <Card className="border-border shadow-shadow rounded-lg bg-main border-2 p-4 sm:p-5 col-span-1 h-full">
             <img
-              className="rounded-[1.5rem] w-full border-2 shadow-shadow"
+              className="rounded-[1.5rem] border-2 shadow-shadow w-full"
               src="/assets/projects/ThisSite.PNG"
               alt="This Website"
             />
@@ -38,7 +38,7 @@ const Websites: React.FC = () => {
                 </a>
                 <a
                   className="border-border bg-secondary-background text-foreground shadow-shadow rounded-lg  hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center text-sm transition-all hover:shadow-none sm:text-base"
-                  // href={project.repoUrl} // Github link
+                  href="https://github.com/ChristianOBDev/portfolio-website" // Github link
                   target="_blank"
                 >
                   Github
@@ -74,7 +74,7 @@ const Websites: React.FC = () => {
                 </a>
                 <a
                   className="border-border bg-secondary-background text-foreground shadow-shadow rounded-lg  hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center text-sm transition-all hover:shadow-none sm:text-base"
-                  href="https://github.com/DistanceTimePace/pace-calculator-app"
+                  href="https://github.com/ChristianOBDev/pace-calculator-app"
                   target="_blank"
                 >
                   Github
