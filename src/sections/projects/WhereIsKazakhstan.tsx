@@ -10,13 +10,13 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 const pics = [
-  "src/assets/WIK/WIK_1.webp",
-  "src/assets/WIK/WIK_2.webp",
-  "src/assets/WIK/WIK_3.webp",
-  "src/assets/WIK/WIK_4.webp",
-  "src/assets/WIK/WIK_5.webp",
-  "src/assets/WIK/WIK_6.webp",
-  "src/assets/WIK/WIK_7.webp",
+  "/assets/WIK/WIK_1.webp",
+  "/assets/WIK/WIK_2.webp",
+  "/assets/WIK/WIK_3.webp",
+  "/assets/WIK/WIK_4.webp",
+  "/assets/WIK/WIK_5.webp",
+  "/assets/WIK/WIK_6.webp",
+  "/assets/WIK/WIK_7.webp",
 ];
 
 const responsive = {

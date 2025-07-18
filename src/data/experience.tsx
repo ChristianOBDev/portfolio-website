@@ -31,9 +31,9 @@ export const experience: Experience[] = [
       "UI/UX Design",
       "Technical Documentation",
     ],
-    logoUrl: "src/assets/logos/moonhub_logo.webp",
+    logoUrl: "/assets/logos/moonhub_logo.webp",
     color: "#ffbf00", // amber
-    icon: "src/assets/icons/virtual-reality.webp",
+    icon: "/assets/icons/virtual-reality.webp",
   },
   {
     company: "Phantasm Studio",
@@ -55,9 +55,9 @@ export const experience: Experience[] = [
       "Technical Documentation",
       "Real-time Visualization",
     ],
-    logoUrl: "src/assets/logos/phantasm_logo_invert.png",
+    logoUrl: "/assets/logos/phantasm_logo_invert.png",
     color: "#00d696", // emerald
-    icon: "src/assets/icons/camera.webp",
+    icon: "/assets/icons/camera.webp",
   },
   {
     company: "Activision-Blizzard",
@@ -77,8 +77,8 @@ export const experience: Experience[] = [
       "Collaboration",
       "Documentation",
     ],
-    logoUrl: "src/assets/logos/Activision_Blizzard_logo.webp",
+    logoUrl: "/assets/logos/Activision_Blizzard_logo.webp",
     color: "#0099ff", // sky
-    icon: "src/assets/icons/game-controller.webp",
+    icon: "/assets/icons/game-controller.webp",
   },
 ];

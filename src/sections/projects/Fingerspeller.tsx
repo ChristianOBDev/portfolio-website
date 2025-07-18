@@ -37,13 +37,13 @@ const Fingerspeller: React.FC = () => {
             </div>
 
             <img
-              src="/src/assets/projects/asl.gif"
+              src="/assets/projects/asl.gif"
               alt="ASL Fingerspeller Gameplay"
               className="w-full border-2 border-black rounded-xl shadow-shadow"
             />
             <div className="flex items-center justify-center h-full">
               <ImageCard
-                src="/src/assets/asl_certif.svg"
+                src="/assets/projects/asl_certif.svg"
                 alt="ASL Fingerspeller Award"
                 caption="ASL Fingerspeller took first place in the Student Category of the Serious Games Competition at the Serious Games Society’s Games and Learning Alliance Conference 2020!"
                 width="100%"

@@ -16,7 +16,7 @@ const Websites: React.FC = () => {
           <Card className="border-border shadow-shadow rounded-lg bg-main border-2 p-4 sm:p-5 col-span-1 h-full">
             <img
               className="rounded-[1.5rem] w-full border-2 shadow-shadow"
-              src="src/assets/projects/ThisSite.png"
+              src="/assets/projects/ThisSite.PNG"
               alt="This Website"
             />
 
@@ -49,7 +49,7 @@ const Websites: React.FC = () => {
           <Card className="border-border shadow-shadow rounded-lg bg-main border-2 p-4 sm:p-5 col-span-1 h-full">
             <img
               className="rounded-[1.5rem] w-full border-2 shadow-shadow"
-              src="src/assets/projects/DTP.png"
+              src="/assets/projects/DTP.PNG"
               alt="DistanceTimePace.com"
             />
 

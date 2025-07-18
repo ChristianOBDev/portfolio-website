@@ -6,7 +6,7 @@ import Star1 from "@/components/stars/s1";
 import Star10 from "@/components/stars/s10";
 import Star15 from "@/components/stars/s15";
 import { colors } from "@/data/colors";
-const headshot = "src/assets/headshot_transparent_bg_extra.webp";
+const headshot = "/assets/headshot_transparent_bg_extra.webp";
 
 const Hero: React.FC = () => {
   return (
