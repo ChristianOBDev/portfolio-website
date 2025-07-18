@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { about } from "@/data/about";
 import Star1 from "@/components/stars/s1";
@@ -42,30 +41,15 @@ const Hero: React.FC = () => {
       <div className="flex h-full">
         {/* Left Side Text */}
         <div className="w-full lg:w-1/2 flex flex-col justify-center px-6 lg:px-16 z-10 space-y-4">
-          <motion.h1
-            className="text-6xl lg:text-7xl font-extrabold uppercase leading-tight"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
+          <h1 className="text-6xl lg:text-7xl font-extrabold uppercase leading-tight">
             Christian O'Brien
-          </motion.h1>
+          </h1>
 
-          <motion.h3
-            className="text-4xl font-mono"
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
+          <h3 className="text-4xl font-mono">
             Ultra Runner. Creative Developer.
-          </motion.h3>
+          </h3>
 
-          <motion.div
-            className="w-full h-3/8"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-          >
+          <div className="w-full h-3/8">
             <ScrollArea
               className="rounded-base h-full text-main-foreground border-2 border-border p-4 shadow-shadow"
               style={{
@@ -75,7 +59,7 @@ const Hero: React.FC = () => {
             >
               {about.bio}
             </ScrollArea>
-          </motion.div>
+          </div>
         </div>
 
         {/* Right Side Image for large screens only */}
